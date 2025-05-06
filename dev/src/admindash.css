@@ -1,0 +1,137 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: rgb(152, 152, 244);
+  }
+  
+  /* Container */
+  .job-portal-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title */
+  .portal-title {
+    font-family:cursive;
+    font-size:40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Search input */
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* Job card */
+  .job-card {
+    background: #f8f9ff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .job-title {
+    margin: 0;
+    font-size: 20px;
+    color: #2c3e50;
+  }
+  
+  .job-meta {
+    margin: 5px 0 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .job-description {
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  .job-actions button {
+    padding: 8px 14px;
+    margin-right: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .view-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .view-button:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Add job form */
+  .add-job-form {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgb(152, 152, 244);
+    border-radius: 10px;
+  }
+  
+  .add-job-form h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .add-job-form input,
+  .add-job-form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .add-job-form button {
+    margin-top: 10px;
+    /* background-color: #007bff; */
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .add-job-form button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  .no-results {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+  }
+  

@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(152, 152, 244); /* Light purple background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for the job portal */
+.job-portal-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-radius: 12px;
+  background-color: rgb(152, 152, 244);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.portal-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* Search input box */
+.search-input {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: rgb(152, 152, 244);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Flex layout for job cards */
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+/* Job card style */
+.job-card {
+  background-color: rgb(152, 152, 244);
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Job title */
+.job-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+/* Company and location */
+.job-meta {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+/* Description */
+.job-description {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Buttons container */
+.job-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons */
+.apply-button,
+.view-button {
+  flex: 1;
+  padding: 10px;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.view-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.apply-button:hover,
+.view-button:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+/* No results message */
+.no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 30px;
+}
