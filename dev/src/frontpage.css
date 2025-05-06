@@ -1,11 +1,12 @@
 /* Global page background and font */
 h1{
   text-align: center;
+ 
 }
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(152, 152, 244); /* Light purple background*/
+   background-color: rgb(152, 152, 244);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,6 +16,7 @@ body {
   margin: 0 auto;
   padding: 40px 20px;
   border-radius: 12px;
+  
   background-color: #ffffff;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
