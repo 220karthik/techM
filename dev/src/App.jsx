@@ -7,7 +7,6 @@ import JobPortal from './Jobseekerdashboard.jsx'
 import { BrowserRouter,replace,Route,Routes } from 'react-router-dom'
 function App() {
   
-  
   return (
     <>
     <Routes>
